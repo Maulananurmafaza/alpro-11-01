@@ -110,7 +110,7 @@ func main(){
 
 ##### Output
 <!-- Path relatif dari readme.md ke folder unguided/[nama_soal]/output.png, contoh: -->
-![Screenshot Output Unguided]()
+![Screenshot Output Unguided](https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/02-bahasa-pemrograman-go/unguided/cacahuang/unguided_cacahuang_output.png)
 
 
 #### Deskripsi
@@ -147,7 +147,7 @@ func main() {
 ```
 
 ##### Output
-![Screenshot Output Unguided](unguided/[nama_soal]/output.png)
+![Screenshot Output Unguided](https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/02-bahasa-pemrograman-go/unguided/kalkulator/unguided_kalkulator_output.png)
 
 #### Deskripsi
 Membuat program yang menghitung hasil penjumlahan, pengurangan, perkalian, pembagian, dan modulo dari dua input yang dimasukkan. Bagian guided yang diimplementasikan adalah cara menggunakan variabel integer, fmt.scan, fmt.Println, serta logika matematika dasar. Bagian unguided yang mengimpelemntasikan adalah cara penggunaan format specifier seperti %d yang mana digunakan untuk menandai tempat yang akan diisi oleh nilai variabel nantinya, dan fmt.Printf untuk mencetak teks dengan format, yang dalam program ini berupa format specifier %d. Hasilnya berupa output hasil operasi matematika sederhana dari dua input yang dimasukkan.

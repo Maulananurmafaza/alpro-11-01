@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul [03] - [Variabel dan Operator]</h1>
+# <h1 align="center">Laporan Praktikum Modul 03 - Variabel dan Operator</h1>
 <p align="center">[Maulana Nur Mafaza] - [109092600015]</p>
 
 ## Dasar Teori
@@ -8,9 +8,9 @@ Variabel merupakan tempat penyimpanan dalam memori komputer untuk menampung data
 ### B. Operator Aritmatika dan Assignments
 
 #### 1. Operator Aritmatika dan Modulo
-
+Operator aritmatika berfungsi untuk melakukan perhitungan seperti +, -, *, /, dan pencarian sisa hasil bagi.Operator ini biasanya digunakan dalam beragai masalah seperti menghitung total belanja, menentukan rata-rata nilai,dll.Sedangkan modulo biasanya digunakan untuk untuk memperoleh sisa hasil pembagian dua bilangan bulat
 #### 2. Pertukaran Nilai (Multiple Assignment)
-
+Pertukaran nilai digunakan setika suatu program perlu memindahkan nilai dari suatu variabel ke variabel lainnya tanpa mengubah nilai yang dipertukarkan secara tidak sengaja.
 ## Guided
 
 ### 1. [kasir.go]
@@ -129,6 +129,9 @@ Meminta kita untuk mengonversi suhu dari derajat celcius ke reamur,program mener
 
 
 ## Kesimpulan
--
+Dari praktikum kali ini kita dapat memahami penerapan variabel, tipe data numerik, operator aritmatika, input, proses, dan output dalam bahasa Go. Pemahaman ini menjadi dasar penting untuk mengembangkan kemampuan berpikir logis, menyusun algoritma secara sistematis, dan membuat program yang lebih kompleks.
 
 ## Referensi
+1. The Go Authors. The Go Programming Language Specification. Dpak diakses melalui
+tautan https://go.dev/ref/spec
+2. The Go Authors. (n.d.). A Tour of Go: Variables with Initializers. https://go.dev/tour/basics/9

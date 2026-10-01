@@ -23,7 +23,7 @@ b. Deklarasi := digunakan agar compiler secara otomatis menebak tipe data berdas
 
 ## Guided
 
-### 1. [skor.go]
+### 1. [kasir.go]
 
 ```go
 package main
@@ -31,29 +31,26 @@ package main
 import "fmt"
 
 func main(){
-	var nama string
-	var skorMatematika, skorBahasaInggris int
+	var x int 
+	fmt.Println("Masukan nominal")
+	fmt.Scan(&x)
 
-	//Membaca input
-	fmt.Scan(&nama)
-	fmt.Scan(&skorMatematika)
-	fmt.Scan(&skorBahasaInggris)
+	var sepuluhRibuan int = x / 10000
+	var sisa int = x % 10000
 
-	// Menghitung total & rata-rata (pembagian bilangan)
-	total:= skorMatematika + skorBahasaInggris
-	ratarata := total/2
+	var limaRibuan int = sisa / 5000
+	sisa = sisa % 5000
 
-	//Menampilkan output
-	fmt.Println(nama)
-	fmt.Println(total)
-	fmt.Println(ratarata)
+	var seRibuan int = sisa / 1000
+
+	fmt.Println(sepuluhRibuan, limaRibuan, seRibuan)
 }
 ```
 #### Deskripsi
-Membuat program yang membaca input nama seorang siswa, skor matematika, dan skor bahasa inggris. Kemudian program menghitung total gabungan dari kedua nilai, lalu mencari rata-ratanya dari total nilai tadi. Bagian guided yang mengimplementasikan yaitu logika dibalik program syntax pemrograman. Hail yang diperoleh adalah output nama siswa, total nilai matematika dan bahasa inggris serta rata-ratanya. 
+ membahas pembuatan program dalam bahasa pemrograman Go untuk menghitung jumlah lembar uang yang harus diberikan sebagai kembalian kepada pembeli,mengubah nilai uang kembalian menjadi jumlah lembar uang berdasarkan tiga pecahan yang tersedia, yaitu Rp10.000, Rp5.000, dan Rp1.000. Soal ini melatih penggunaan variabel, operasi pembagian, modulus, dan output pada bahasa Go.
 
 
-### 2. [tukar.go]
+### 2. [konversi.go]
 
 ```go
 package main
@@ -61,29 +58,23 @@ package main
 import "fmt"
 
 func main() {
-	var a, b int
+	var celcius float64
 
-	//Membaca input
-	fmt.Scan(&a)
-	fmt.Scan(&b)
+	fmt.Println("Masukkan suhu: ")
+	fmt.Scan(&celcius)
 
-	//Menukar a dan b
-	a, b = b, a
-
-	//output
-	fmt.Println(a)
-	fmt.Println(b)
+	fmt.Println(celcius + 273)
 }
 
 ```
 #### Deskripsi
-Membuat program yang mampu membaca dua input bilangan bulat lalu menukar nilai kedua bilangan bulat tersebut. Bagia guided yang mengimplementasikan yaitu logika serta syntax pemrograman. Hasil yang diperoleh berupa output yang berkebalikan dari input yang diberikan, misalnya input adalah a dan b, maka outputnya adalah b dan a.
+meminta kita untuk membuat sebuah program menggunakan bahasa pemrograman Go yang berfungsi untuk mengonversi suhu dari derajat Celsius menjadi Kelvin ,merupakan latihan dasar pemrograman Go yang berfokus pada input, variabel bertipe bilangan real, operasi aritmatika penjumlahan, dan output. Program cukup membaca nilai Celsius, menambahkan 273 sesuai rumus yang diberikan, lalu menampilkan hasilnya dalam Kelvin
 
 
 
 ## Unguided
 
-### 1. [cacahuang.go]
+### 1. [konversi_hari.go]
 
 ```go
 package main
@@ -91,31 +82,36 @@ package main
 import "fmt"
 
 func main(){
-	var uang int
-	fmt.Println("Msukan nominal uang")
-	fmt.Scan(&uang)
+	var hari int
+	var tahun, bulan, minggu, sisaHari int
 
-	sepuluhRibu := uang / 10000
-	sisa := uang % 10000
+	fmt.Println("masukan jumlah Hari")
+	fmt.Scan(&hari)
 
-	limaRibu := sisa / 5000
-	sisa = sisa % 5000
+	tahun = hari / 360
+	hari = hari % 360
+	bulan = hari / 30 
+	hari = hari % 30
+	minggu = hari / 7
+	sisaHari = hari % 7
 
-	seRibu := sisa / 1000
+	fmt.Println("tahun", tahun)
+	fmt.Println("bulan", bulan)
+	fmt.Println("minggu", minggu)
+	fmt.Println("sisaHari", sisaHari)
 
-	fmt.Printf("Sepuluh Ribu = %d, Lima Ribu = %d, Seribu = %d\n", sepuluhRibu, limaRibu, seRibu)
 
 }
 ```
 
 ##### Output
 <!-- Path relatif dari readme.md ke folder unguided/[nama_soal]/output.png, contoh: -->
-![Screenshot Output Unguided](https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/02-bahasa-pemrograman-go/unguided/cacahuang/unguided_cacahuang_output.png)
+![Screenshot Output Unguided](https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instruksi-dasar/unguided/konversi_hari/konversi.go)
 
 
 #### Deskripsi
-Membuat program yang berfungsi menguraikan nominal uang menjadi pecahan (hanya bilangan bulat) 10.000, 5.000, dan 1.000. Bagian guided yang diimplementasikan yakni cara menggunakan variabel integer, fmt.PrintIn, fmt. Scan, dan algoritma pembagian dan modulo. Bagian unguided yang mengimpletasikan yakni cara menggunakan format specifier seperti %d, dan fmt.Printf. Hasil yang diperoleh berupa output berapa banyak uang nominal 10.000, 5.000, dan 1.000 dari input total 
-### 2. [kalkulator.go]
+Meminta kita mengkonversi jumlah hari menjadi satuan tahun, bulan, minggu dan sisa hari.Program kemudian harus mengambil total hari sebagai input,kemudian secara bertahap mengubahnya menjadi tahun-bulan-minggu-sisahari
+### 2. [konversi_suhu.go]
 
 ```go
 package main
@@ -123,34 +119,21 @@ package main
 import "fmt"
 
 func main() {
-	var a,b int
+	var celcius float64
 
-	//membaca input
-	fmt.Print("masukan nilai a")
-	fmt.Scan(&a)
-	fmt.Print("masukan nilai b")
-	fmt.Scan(&b)
+	fmt.Println("Masukkan suhu celcius")
+	fmt.Scan(&celcius)
 
-	//menampilkan output
-	fmt.Print("Hasil Penjumlahan: ")
-	fmt.Println(a + b)
-	fmt.Print("Hasil Pengurangan: ")
-	fmt.Println(a - b)
-	fmt.Print("Hasil Perkalian: ")
-	fmt.Println(a * b)
-	fmt.Print("Hasil Pembagian: ")
-	fmt.Println(a / b)
-	fmt.Print("Hasil Sisa Hasil Bagi: ")
-	fmt.Println(a % b)
-
+	reamur := celcius * 4/5
+	fmt.Println("konversi ke Suhu reamur", reamur)
 }
 ```
 
 ##### Output
-![Screenshot Output Unguided](https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/02-bahasa-pemrograman-go/unguided/kalkulator/unguided_kalkulator_output.png)
+![Screenshot Output Unguided](https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instruksi-dasar/unguided/konversi_suhu/konversi.go)
 
 #### Deskripsi
-Membuat program yang menghitung hasil penjumlahan, pengurangan, perkalian, pembagian, dan modulo dari dua input yang dimasukkan. Bagian guided yang diimplementasikan adalah cara menggunakan variabel integer, fmt.scan, fmt.Println, serta logika matematika dasar. Bagian unguided yang mengimpelemntasikan adalah cara penggunaan format specifier seperti %d yang mana digunakan untuk menandai tempat yang akan diisi oleh nilai variabel nantinya, dan fmt.Printf untuk mencetak teks dengan format, yang dalam program ini berupa format specifier %d. Hasilnya berupa output hasil operasi matematika sederhana dari dua input yang dimasukkan.
+Meminta kita untuk mengonversi suhu dari derajat celcius ke reamur,program menerima satu nilai suhu celsius sebagai input, kemudian mengubahnya menjadi suhu reamur menggunakan rumus R = (4/5) × C,dari soal ini kita dilatih untuk memahami hubungan antara input → proses/perhitungan → output serta penggunaan tipe data numerik
 
 <!-- Duplikasi blok "### [nama_soal]" sesuai jumlah folder soal di dalam unguided -->
 

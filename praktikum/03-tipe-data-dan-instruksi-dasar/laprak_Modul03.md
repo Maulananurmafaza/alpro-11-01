@@ -3,23 +3,13 @@
 
 ## Dasar Teori
 
-### A. [Bahasa Pemrograman Go]
-Go atau Golang adalah bahasa pemrograman yang dikembangkan oleh Google. Go dirancang untuk membuat program yang sederhana, cepat, mudah dipelihara, dan mendukung pemrograman konkuren.
-### B. [Package dan Struktur Program di Go]
+### A. Variabel dan Tipe Data di Go
+Variabel merupakan tempat penyimpanan dalam memori komputer untuk menampung data selama program berjalan.Yang dimana, bahasa Go menggunakan sistem statically typed, yang artinya setiap variabel wajib memiliki tipe data yang pasti sejak awal dan tidak bisa diisi sembarang tipe lain ditengah proses
+### B. Operator Aritmatika dan Assignments
 
-#### 1. [Pengertian Package main dan func main()]
-package main digunakan untuk menunjukkan bahwa file Go tersebut termasuk dalam package utama yang dapat menghasilkan program yang bisa dijalankan (executable)
-func main() adalah fungsi utama dalam program Go. Ketika program dijalankan, Go akan memulai eksekusi program dari fungsi main().
-#### 2. [Tipe Data dan Deklarasi Variabel di Go]
-Tipe data dalam Go ada beberapa macam, diantaranya yaitu bilangan bulat, bilangan real, teks, dan boolean. \
-a. Bilangan bulat atau integer adalah tipe data yang digunakan untuk menyimpan bilangan bulat, baik positif maupun negatif. Tipe data ini dideklarasikan dengan int, int8, int32, dan int64. \
-b. Bilangan real atau float adalah tipe data yang digunakan untuk menyimpan bilangan desimal. Tipe data ini dideklarasikan dengan float32 dan float64. \
-c. Teks atau string adalah tipe data yang digunakan untuk menyimpan teks atau karakter. Tipe data ini dideklarasikan dengan tanda petik ganda atau "...". \
-d. Boolean adalah tipe data yang hanya memiliki dua kemungkinan, true atau false. Tipe data ini dideklarasikan dengan kata kunci bool. 
+#### 1. Operator Aritmatika dan Modulo
 
-Deklarasi variabel di Go dilakukan dengan dua cara, yaitu bisa dengan var dan :=. \
-a. Deklarasi var digunakan untuk menyebutkan nama variabel dan tipe data dengan jelas. \
-b. Deklarasi := digunakan agar compiler secara otomatis menebak tipe data berdasarkan nilai didalamnya. 
+#### 2. Pertukaran Nilai (Multiple Assignment)
 
 ## Guided
 
@@ -106,7 +96,7 @@ func main(){
 
 ##### Output
 <!-- Path relatif dari readme.md ke folder unguided/[nama_soal]/output.png, contoh: -->
-![Screenshot Output Unguided](https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instruksi-dasar/unguided/konversi_hari/konversi.go)
+![Screenshot Output Unguided](https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instruksi-dasar/unguided/konversi_hari/unguided_konversi_hari_output.png)
 
 
 #### Deskripsi
@@ -130,7 +120,7 @@ func main() {
 ```
 
 ##### Output
-![Screenshot Output Unguided](https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instruksi-dasar/unguided/konversi_suhu/konversi.go)
+![Screenshot Output Unguided](https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/03-tipe-data-dan-instruksi-dasar/unguided/konversi_suhu/unguided_konversi_suhu_output.png)
 
 #### Deskripsi
 Meminta kita untuk mengonversi suhu dari derajat celcius ke reamur,program menerima satu nilai suhu celsius sebagai input, kemudian mengubahnya menjadi suhu reamur menggunakan rumus R = (4/5) × C,dari soal ini kita dilatih untuk memahami hubungan antara input → proses/perhitungan → output serta penggunaan tipe data numerik
@@ -139,20 +129,6 @@ Meminta kita untuk mengonversi suhu dari derajat celcius ke reamur,program mener
 
 
 ## Kesimpulan
--Go (Golang) adalah bahasa pemrograman yang sederhana, cepat, efisien, dan mudah dipelihara. \
--Go dikembangkan oleh Google dan mendukung pemrograman konkuren. \
--package main digunakan sebagai package utama dalam program Go. \
--func main() merupakan fungsi utama dan menjadi titik awal eksekusi program. \
--Go memiliki berbagai tipe data, seperti: \
-a.int untuk bilangan bulat. \
-b.float32 dan float64 untuk bilangan desimal. \
-c.string untuk teks. \
-d.bool untuk nilai true atau false. \
--Deklarasi variabel dapat dilakukan menggunakan var dan :=. \
-a.var digunakan untuk mendeklarasikan variabel dengan tipe data yang dapat ditentukan secara jelas. \
-b.:= digunakan untuk mendeklarasikan variabel dengan tipe data yang ditentukan secara otomatis berdasarkan nilainya. \
--Dengan struktur yang sederhana dan tipe data yang jelas, Go dapat digunakan untuk membuat program yang efisien dan mudah dikembangkan.
+-
 
 ## Referensi
-1.Go Team. (2026). The Go Programming Language Specification. Google LLC. Diakses pada 28 September 2026 melalui https://go.dev/ref/spec. \
-2.Go Team. (2026). Standard Library Documentation. Google LLC. Diakses pada 28 September 2026 melalui https://pkg.go.dev/fmt#section-dokumentation.

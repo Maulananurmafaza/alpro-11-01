@@ -26,14 +26,12 @@ func main(){
 ```
 
 ##### Output
-
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/04-runtunan-sekuensi/tp/evaluasiEkspresiKontrol/pendahuluan_evaluasiEkspresiKontrol_output.png
 
 
 #### Deskripsi
 
-
-### 2. Tracing: Evaluasi Pernyataan Kondisi
+### 2.Tracing: Evaluasi Pernyataan Kondidsi
 
 ```go
 package main
@@ -79,10 +77,83 @@ if z > 10 && x == 10 {
 ```
 
 ##### Output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/04-runtunan-sekuensi/tp/evaluasiPernyataanKondisi/pendahuluan_evaluasiPernyataanKondisi_output.png
 
 
 
 #### Deskripsi
+
+
+### 3. Menentukan Jumlah Hari dalam Sebulan Berdasarkan Tahun dan Bulan
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var tahun int
+	var bulan string
+
+	fmt.Println("Masukkan tahun: ")
+	fmt.Scan(&tahun)
+	fmt.Println("Masukkan bulan: ")
+	fmt.Scan(&bulan)
+	kabisat := (tahun % 400 == 0) || (tahun % 4 == 0 && tahun % 100 != 0)
+
+	switch bulan {
+	case "Jan", "Mar", "Mei", "Jul", "Agu", "Okt", "Des":
+		fmt.Println("Jumlah hari: 31")
+	case "Apr", "Jun", "Sep", "Nov":
+		fmt.Println("Jumlah hari: 30")
+	case "Feb":
+		if kabisat {
+			fmt.Println("Jumlah hari: 29")
+		} else {
+			fmt.Println("Jumlah hari: 28")
+		}
+	default:
+		fmt.Println("_")
+	}
+}
+```
+
+##### Output
+
+
+#### Deskripsi
+
+
+
+
+
+### 4. Switch Case
+
+```go
+package main
+
+import "fmt"
+
+func main(){
+	var hari string
+	fmt.Println("Masukkan nama hari:")
+	fmt.Scan(&hari)
+
+	switch hari{
+	case "Senin", "Rabu" , "Kamis" , "Jumat":
+		fmt.Println("Masuk kuliah")
+	case "Selasa", "Sabtu" , "Minggu":
+		fmt.Println("Libur")
+	default:
+		fmt.Println("Hari tidak valid")
+	}
+}
+
+##### Output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/04-runtunan-sekuensi/tp/switchCase/swithCase.go
+
+#### Deskripsi
+
 
 
 ## Kesimpulan

@@ -152,7 +152,7 @@ func main() {
 	}
 }
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/04-runtunan-sekuensi/tp/switchCase/pendahuluan_swithCase_output.png
 
 #### Deskripsi
 Program ini menggunakan switch case untuk menampilkan jenis minuman berdasarkan pilihan pengguna. Struktur ini membuat program sederhana dan mudah dipahami

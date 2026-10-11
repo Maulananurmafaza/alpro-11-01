@@ -16,6 +16,7 @@ Operator && (AND) bernilai true jika kedua sisi benar, || (OR) jika salah satu s
 Percabangan ini digunakan untuk mengatur alur program berdasarkan kondisi tertentu agar program dapat mengambil keputusan secara tepat.
 #### 2. Switch Case
 struktur percabangan yang digunakan untuk memilih dan menjalankan kode berdasarkan nilai yang sesuai dengan pilihan tertentu. switch memeriksa nilai, sedangkan case menentukan pilihan yang akan dijalankan.
+
 ## Guided
 
 ### 1. grade.go
@@ -203,7 +204,7 @@ func main() {
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/04-runtunan-sekuensi/unguided/grade/unguided_grade_output.png
 
 #### Deskripsi
 Program ini adalah grade.go yang diubah memakai switch. Switch tanpa ekspresi memeriksa rentang nilai dari tertinggi, dengan F sebagai default.
@@ -237,14 +238,15 @@ func main() {
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/04-runtunan-sekuensi/unguided/pajak/unguided_pajak_output.png
 
 #### Deskripsi
 Program ini menghitung pajak penghasilan (juta) dengan if - else if - else. Pajak dihitung bertahap per lapisan: 5%, 10%, 15%, dan 20% sesuai bracket penghasilan.
 
-
-
 ## Kesimpulan
-
+Praktikum ini melatih pembuatan program yang memilih alur berdasarkan kondisi. If - else if cocok untuk kondisi bertingkat seperti pajak, sedangkan switch membuat pengelompokan seperti nilai huruf lebih rapi.
 
 ## Referensi
+1. The Go Authors. (n.d.). The Go Programming Language Specification. https://go.dev/ref/spec
+2. The Go Authors. (n.d.). A Tour of Go. https://go.dev/tour/
+3. The Go Authors. (n.d.). Go Documentation. https://go.dev/doc/

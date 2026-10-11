@@ -2,17 +2,23 @@ package main
 
 import "fmt"
 
-func main(){
-	var hari string
-	fmt.Println("Masukkan nama hari:")
-	fmt.Scan(&hari)
+func main() {
+    var pilihan int
 
-	switch hari{
-	case "Senin", "Rabu" , "Kamis" , "Jumat":
-		fmt.Println("Masuk kuliah")
-	case "Selasa", "Sabtu" , "Minggu":
-		fmt.Println("Libur")
-	default:
-		fmt.Println("Hari tidak valid")
+    fmt.Println("1. Air Mineral")
+	 fmt.Println("2. Teh")
+    fmt.Println("3. Kopi")
+    fmt.Print("Pilih minuman (1-3): ")
+    fmt.Scan(&pilihan)
+
+    switch pilihan {
+    case 1:
+        fmt.Println("Anda memilih Air Mineral")
+    case 2:
+        fmt.Println("Anda memilih Teh")
+	 case 3:
+        fmt.Println("Anda memilih Kopi")
+    default:
+        fmt.Println("Pilihan tidak tersedia")
 	}
 }

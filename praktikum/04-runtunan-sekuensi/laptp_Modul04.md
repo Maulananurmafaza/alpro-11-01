@@ -30,6 +30,7 @@ https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/04-runtunan-
 
 
 #### Deskripsi
+membahas evaluasi ekspresi kontrol dalam bahasa Go, yaitu menentukan apakah suatu kondisi menghasilkan nilai true atau false
 
 ### 2.Tracing: Evaluasi Pernyataan Kondidsi
 
@@ -79,10 +80,8 @@ if z > 10 && x == 10 {
 ##### Output
 https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/04-runtunan-sekuensi/tp/evaluasiPernyataanKondisi/pendahuluan_evaluasiPernyataanKondisi_output.png
 
-
-
 #### Deskripsi
-
+membahas evaluasi pernyataan kondisi dalam bahasa Go dengan menggunakan percabangan if, else if, dan else
 
 ### 3. Menentukan Jumlah Hari dalam Sebulan Berdasarkan Tahun dan Bulan
 
@@ -119,12 +118,10 @@ func main() {
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/04-runtunan-sekuensi/tp/jumlahHari/Pendahuluan_jumlahHari_output.png
 
 #### Deskripsi
-
-
-
+membahas pembuatan program dalam bahasa Go untuk menentukan jumlah hari dalam suatu bulan berdasarkan tahun dan nama bulan yang diinput pengguna, termasuk memperhatikan tahun kabisat dan validasi nama bulan
 
 
 ### 4. Switch Case
@@ -134,26 +131,32 @@ package main
 
 import "fmt"
 
-func main(){
-	var hari string
-	fmt.Println("Masukkan nama hari:")
-	fmt.Scan(&hari)
+func main() {
+    var pilihan int
 
-	switch hari{
-	case "Senin", "Rabu" , "Kamis" , "Jumat":
-		fmt.Println("Masuk kuliah")
-	case "Selasa", "Sabtu" , "Minggu":
-		fmt.Println("Libur")
-	default:
-		fmt.Println("Hari tidak valid")
+    fmt.Println("1. Air Mineral")
+	 fmt.Println("2. Teh")
+    fmt.Println("3. Kopi")
+    fmt.Print("Pilih minuman (1-3): ")
+    fmt.Scan(&pilihan)
+
+    switch pilihan {
+    case 1:
+        fmt.Println("Anda memilih Air Mineral")
+    case 2:
+        fmt.Println("Anda memilih Teh")
+	 case 3:
+        fmt.Println("Anda memilih Kopi")
+    default:
+        fmt.Println("Pilihan tidak tersedia")
 	}
 }
-
 ##### Output
-https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/04-runtunan-sekuensi/tp/switchCase/swithCase.go
+
 
 #### Deskripsi
-
+Program ini menggunakan switch case untuk menampilkan jenis minuman berdasarkan pilihan pengguna. Struktur ini membuat program sederhana dan mudah dipahami
 
 
 ## Kesimpulan
+Berdasarkan seluruh soal di atas, dapat disimpulkan bahwa bahasa pemrograman Go memiliki berbagai fitur untuk mengatur alur program, seperti operator logika, percabangan if-else, dan switch case. Melalui soal-soal tersebut, kita belajar mengevaluasi kondisi true atau false, menelusuri alur eksekusi program, menghitung nilai akhir variabel, serta membuat program untuk menentukan jumlah hari dalam suatu bulan dengan memperhatikan tahun kabisat dan validasi input.

@@ -28,3 +28,4 @@ Proses pencatatan diatas dapat digambarkan menjadi sebuah proses pengulangan, ka
 3. Perulangan terus berjalan selama jumlah kendaraan kurang dari atau sama dengan kapasitas maksimum
 
 ##### Output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/04-latihan-dan-quiz/petugasParkirKampus_output.png

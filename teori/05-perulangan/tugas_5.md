@@ -24,7 +24,7 @@ func main(){
 }
 ```
 ##### output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/05-perulangan/poinGame_output.png
 
 ##### 2. Kuadrat Digit
 #### Kode
@@ -53,7 +53,7 @@ func main(){
 }
 ```
 ##### output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/05-perulangan/kuadratDigit_output.png
 
 ##### 3. Donat
 #### Kode
@@ -79,7 +79,7 @@ func main(){
 }
 ```
 ##### output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/05-perulangan/donat_output.png
 
 ##### 4. Kapasitas Gudang
 #### Kode
@@ -104,3 +104,4 @@ func main(){
 }
 ```
 ##### output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/05-perulangan/kapasitasGudang_output.png

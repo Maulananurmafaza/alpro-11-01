@@ -164,7 +164,7 @@ func main(){
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/05-perulangan-for-loop/unguided/prima/unguided_prima_output.png
 
 #### Deskripsi
 
@@ -196,11 +196,11 @@ func main(){
 		}
 	}
 	fmt.Println(lulus)
-
+}
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/05-perulangan-for-loop/unguided/ecct/unguided_ecct_output.png
 
 #### Deskripsi
 

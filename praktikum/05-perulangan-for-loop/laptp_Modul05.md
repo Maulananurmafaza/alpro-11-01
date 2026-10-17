@@ -2,14 +2,18 @@
 <p align="center">Maulana Nur Mafaza - 109092600015</p>
 
 ### 1. Fungsi
-Perulangan For berfungsi untuk menjalankan intruksi secara berulang selama kondisi yang ditentukan masih terpenuhi dan program ini membantu programmer membuat kode yang lebih efisien.
-# Komponen Perulangan
+for merupakan looping construct satu-satunya dalam Go, karena Go tidak memiliki while dan do-while. Fungsi utama dari for yaitu untuk mengeksekusi kode didalamnya secara berulang selama kondisi-kondisinya terpenuhi. Tiga komponen for diataranya:
+
 - Inisiasi
-
+program didalamnya akan dieksekusi sekali diawal sebelum perulangan dimulai. Bagian ini biasanya berisi nilai awal dari variabel pembanding.
 - Kondisi
-
+program didalam kondisi akan dievaluasi sebelum setiap iterasi dijalankan. Jika bernilai true, maka kode didalam for akan dieksekusi, jika false maka perulangan akan berhenti.
 - post statement
+program didalam post-statement akan dieksekusi pada setiap iterasi berakhir setelah kode didalam kondisi selesai dieksekusi.
 
+### 2. Perbedaan for dengan tiga komponen dan for yang hanya menggunakan kondisi
+- For yang menggunakan tiga komponen digunakan ketika jumlah iterasi sudah diketahui sejak awal, jika jumlah iterasi belum diketahui, maka for ini tidak bisa digunakan.
+- For yang menggunakan kondisi digunakan ketika jumlah iterasi belum diketahui atau belum pasti. for ini bergantung pada kondisi yang dievaluasi saat program berjalan.
 
 ### 3. ganjil
 

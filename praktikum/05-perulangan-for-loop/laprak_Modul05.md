@@ -37,7 +37,7 @@ func main(){
 }
 ```
 #### Deskripsi
- 
+ Program ini bertujuan untuk menghitung total akumulasi uang yang ditabung selama jangka waktu tertentu yang di mana jumlah tabungan harian mengalami peningkatan yang konstan setiap harinya.
 
 ### 2. terbesar.go
 
@@ -65,7 +65,7 @@ func main(){
 }
 ```
 #### Deskripsi
-
+Program ini bertujuan untuk mencari dan menentukan nilai terbesar (maksimum) dari sejumlah n buah bilangan yang diberikan sebagai masukan.
 
 ### 3. bioskop.go
 
@@ -127,7 +127,7 @@ func main(){
 }
 ```
 #### Deskripsi
-
+Sebuah bioskop ingin menghitung total harga per transaksi serta total pendapatan keseluruhan dari buah transaksi pembelian tiket. Harga dasar tiket bergantung pada jenis film dan hari penayangan. Selain itu, bioskop memberikan diskon sebesar 10% jika pembeli membeli minimal 5 tiket dalam satu kali transaksi.
 
 ## Unguided
 
@@ -166,7 +166,7 @@ func main(){
 https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/05-perulangan-for-loop/unguided/prima/unguided_prima_output.png
 
 #### Deskripsi
-
+Membuat program untuk menampilkan seluruh faktor dari bilangan posiitif n. Kemudian program menentukan apakah bilangan tersebut merupakan bilangan prima atau bukan for digunakan untuk mengecek faktor dari n
 
 ### 2. ecct
 
@@ -202,7 +202,7 @@ func main(){
 https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/05-perulangan-for-loop/unguided/ecct/unguided_ecct_output.png
 
 #### Deskripsi
-
+Program ini dirancang untuk mengevaluasi status kelulusan dari sejumlah peserta berdasarkan rata-rata nilai dari 6 komponen atau kriteria penilaian yang berbeda dan menentukan apakah dalam satu kelompok bisa mendapatkan sertif ECCTatau tidak.
 
 ## Kesimpulan
 

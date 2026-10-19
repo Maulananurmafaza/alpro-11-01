@@ -205,6 +205,8 @@ https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/05-perulanga
 Program ini dirancang untuk mengevaluasi status kelulusan dari sejumlah peserta berdasarkan rata-rata nilai dari 6 komponen atau kriteria penilaian yang berbeda dan menentukan apakah dalam satu kelompok bisa mendapatkan sertif ECCTatau tidak.
 
 ## Kesimpulan
-
+Konsep Perulangan (for) Bahasa pemrograman Go menggunakan kata kunci for sebagai satu-satunya konstruksi perulangan untuk mengeksekusi blok kode secara berulang selama kondisi tertentu terpenuhi. Perulangan ini juga dapat diterapkan secara bersarang (nested loop) untuk mengelola struktur data yang lebih kompleks atau multidimensi
 
 ## Referensi
+1. The Go Programming Language Specification
+2. The Go Programming Language. (2026). The Go Programming Language Specification: Statements (For statements). Diakses dari https://golang.org/ref/spec

@@ -4,12 +4,11 @@
 ## Dasar Teori
 
 ### A. Perulangan For di Go
-
-
+perulangan (looping) adalah mekanisme untuk mengeksekusi sekumpulan kode secara berulang selama kondisi tertentu terpenuhi.Go hanya memiliki satu konstruksi perulangan, yaitu kata kunci for. Go tidak memiliki while atau do-while.
 
 ### B. For hanya kondisi dan Perulangan Bersarang
-
-
+Karena Go tidak memiliki kata kunci while, Anda bisa menggunakan for dengan hanya menuliskan kondisinya saja.
+Sedangkan Perulangan bersarang adalah perulangan di dalam perulangan. Biasanya digunakan untuk mengolah data multidimensi.
 
 ## Guided
 

@@ -29,8 +29,7 @@ func main() {
 ```
 
 ##### Output
-
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/06-perulangan-while-loop-dan-repeat/tp/lulus/pendahuluan_lulus_output.png
 
 #### Deskripsi
 Prigram mengecek kelulusan ujian secara berulang berdasarkan nilai integer yang dimasukkan pengguna. Program terus meminta input hingga pengguna memasukkan angka negatif (kurang dari 0) yang berfungsi sebagai kondisi berhenti. Setiap kali nilai valid dimasukkan, program mengevaluasinya: jika nilai 60 atau lebih, program menampilkan pesan "Anda lulus ujian", dan jika kurang dari 60, program menampilkan "Anda tidak lulus ujian".
@@ -58,8 +57,7 @@ func main(){
 ```
 
 ##### Output
-
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/06-perulangan-while-loop-dan-repeat/tp/deret/pendahuluan_deret_output.png
 
 #### Deskripsi
 Program menghitung jumlah total dari deret perulangan bilangan bulat positif dari 1 sampai n
@@ -98,7 +96,7 @@ func main() {
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/06-perulangan-while-loop-dan-repeat/tp/duaTerendah/pendahuluan_duaTerendah_output.png
 
 #### Deskripsi
 Program membaca n, lalu melakukan perulangan untuk menerima masukan nama dan nilai siswa satu per satu. Program melacak dua nilai terkecil (nilai1 dan nilai2) beserta nama siswanya (siswa1 dan siswa2). Setelah semua data selesai diproses, program mencetak nama kedua siswa dengan nilai terendah tersebut secara berurutan.
@@ -126,7 +124,7 @@ func main(){
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/06-perulangan-while-loop-dan-repeat/tp/biaya/pendahuluan_biaya_output.png
 
 #### Deskripsi
 Program menerima masukan jumlah tahun (n), menetapkan biaya awal sebesar 10.000.000, lalu melakukan perulangan untuk menambahkan kenaikan biaya tersebut setiap tahunnya hingga tahun ke-n.

@@ -1,18 +1,17 @@
-# <h1 align="center">Laporan Praktikum Modul 05 - Perulangan For</h1>
-<p align="center">Maulana Nur Mafaza - 109092600015</p>
+ # <h1 align="center">Laporan Praktikum Modul 05 - Perulangan For</h1>
+<p align="center">[Maulana Nur Mafaza] - [109092600015]</p>
 
 ## Dasar Teori
 
-### A. Perulangan For di Go
+### A. Perulangan For di GO
 perulangan (looping) adalah mekanisme untuk mengeksekusi sekumpulan kode secara berulang selama kondisi tertentu terpenuhi.Go hanya memiliki satu konstruksi perulangan, yaitu kata kunci for. Go tidak memiliki while atau do-while.
 
 ### B. For hanya kondisi dan Perulangan Bersarang
-Karena Go tidak memiliki kata kunci while, Anda bisa menggunakan for dengan hanya menuliskan kondisinya saja.
-Sedangkan Perulangan bersarang adalah perulangan di dalam perulangan. Biasanya digunakan untuk mengolah data multidimensi.
+Karena Go tidak memiliki kata kunci while, Anda bisa menggunakan for dengan hanya menuliskan kondisinya saja. Sedangkan Perulangan bersarang adalah perulangan di dalam perulangan. Biasanya digunakan untuk mengolah data multidimensi.
 
 ## Guided
 
-### tabungan.go
+### 1. tabungan.go
 
 ```go
 package main
@@ -63,6 +62,7 @@ func main(){
 	}
 	fmt.Println(max)
 }
+
 ```
 #### Deskripsi
 Program ini bertujuan untuk mencari dan menentukan nilai terbesar (maksimum) dari sejumlah n buah bilangan yang diberikan sebagai masukan.
@@ -165,8 +165,9 @@ func main(){
 ##### Output
 https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/05-perulangan-for-loop/unguided/prima/unguided_prima_output.png
 
+
 #### Deskripsi
-Membuat program untuk menampilkan seluruh faktor dari bilangan posiitif n. Kemudian program menentukan apakah bilangan tersebut merupakan bilangan prima atau bukan for digunakan untuk mengecek faktor dari n
+Membuat program untuk menampilkan seluruh faktor dari bilangan posiitif n. Kemudian program menentukan apakah bilangan tersebut merupakan bilangan prima atau bukan for digunakan untuk mengecek faktor dari n.
 
 ### 2. ecct
 
@@ -205,7 +206,7 @@ https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/05-perulanga
 Program ini dirancang untuk mengevaluasi status kelulusan dari sejumlah peserta berdasarkan rata-rata nilai dari 6 komponen atau kriteria penilaian yang berbeda dan menentukan apakah dalam satu kelompok bisa mendapatkan sertif ECCTatau tidak.
 
 ## Kesimpulan
-Konsep Perulangan (for) Bahasa pemrograman Go menggunakan kata kunci for sebagai satu-satunya konstruksi perulangan untuk mengeksekusi blok kode secara berulang selama kondisi tertentu terpenuhi. Perulangan ini juga dapat diterapkan secara bersarang (nested loop) untuk mengelola struktur data yang lebih kompleks atau multidimensi
+Konsep Perulangan (for) Bahasa pemrograman Go menggunakan kata kunci for sebagai satu-satunya konstruksi perulangan untuk mengeksekusi blok kode secara berulang selama kondisi tertentu terpenuhi. Perulangan ini juga dapat diterapkan secara bersarang (nested loop) untuk mengelola struktur data yang lebih kompleks atau multidimensi.
 
 ## Referensi
 1. The Go Programming Language Specification

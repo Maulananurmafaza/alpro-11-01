@@ -1,19 +1,21 @@
 # <h1 align="center">Laporan Praktikum Modul 04 - Runtutan Sekuensi</h1>
-<p align="center">Maulana Nur Mafaza - 109092600015</p>
+<p align="center">[Maulana Nur Mafaza] - [109092600015]</p>
 
 ## Dasar Teori
 
-### A. Operator Perbandingan dan Logika di Go
+### A. Operator Perbandigan dan Logika di GO
 
 #### 1. Operator Perbandingan
 Operator seperti >, <, >=, <=, ==, dan != membandingkan dua nilai dan menghasilkan boolean (true atau false).
+
 #### 2. Operator Logika
-Operator && (AND) bernilai true jika kedua sisi benar, || (OR) jika salah satu sisi benar, dan ! (NOT) membalik nilai logika.
+Operator && (AND) bernilai true jika kedua sisi benar, || (OR) jika salah satu sisi benar, dan ! (NOT) membalik nilai logika 
 
 ### B. Percabangan
 
 #### 1. If - Else If - Else
 Percabangan ini digunakan untuk mengatur alur program berdasarkan kondisi tertentu agar program dapat mengambil keputusan secara tepat.
+
 #### 2. Switch Case
 struktur percabangan yang digunakan untuk memilih dan menjalankan kode berdasarkan nilai yang sesuai dengan pilihan tertentu. switch memeriksa nilai, sedangkan case menentukan pilihan yang akan dijalankan.
 
@@ -120,7 +122,7 @@ func main() {
 #### Deskripsi
 Program ini menampilkan menu penilaian dan keluar. Pilihan 1 menjalankan penilaian seperti grade.go, pilihan 0 mencetak "Keluar dari program.", dan pilihan lain mencetak "Pilihan tidak valid." lalu berhenti.
 
-### 3. klasifikasi.go
+### 3. Klasifikasi.go
 
 ```go
 package main
@@ -155,14 +157,13 @@ keterangan = "Masih belajar hidup"
 	}
 	fmt.Println(keterangan)
 }
-
 ```
 #### Deskripsi
 Program ini mengelompokkan seseorang berdasarkan usia dan gaji tahunan memakai switch tanpa ekspresi. Case diperiksa berurutan dari atas, dan case pertama yang bernilai true menentukan keterangannya.
 
 ## Unguided
 
-### 1. grade (swich)
+### 1. grade(swich)
 
 ```go
 package main
@@ -234,9 +235,7 @@ func main() {
 	}
 	fmt.Printf("Total pajak yang harus dibayarkan: %.2f juta", pajak)
 }
-
 ```
-
 ##### Output
 https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/04-runtunan-sekuensi/unguided/pajak/unguided_pajak_output.png
 
@@ -245,8 +244,8 @@ Program ini menghitung pajak penghasilan (juta) dengan if - else if - else. Paja
 
 ## Kesimpulan
 Praktikum ini melatih pembuatan program yang memilih alur berdasarkan kondisi. If - else if cocok untuk kondisi bertingkat seperti pajak, sedangkan switch membuat pengelompokan seperti nilai huruf lebih rapi.
-
 ## Referensi
 1. The Go Authors. (n.d.). The Go Programming Language Specification. https://go.dev/ref/spec
 2. The Go Authors. (n.d.). A Tour of Go. https://go.dev/tour/
 3. The Go Authors. (n.d.). Go Documentation. https://go.dev/doc/
+

@@ -155,11 +155,14 @@ func main() {
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/06-perulangan-while-loop-dan-repeat/unguided/atm/unguided_atm_output.png
 
 #### Deskripsi
 Program dirancang untuk meminta pengguna memasukkan password dengan maksimal tiga kali kesempatan. Jika password benar, pengguna dapat mengakses menu ATM untuk melihat saldo, menarik uang, atau keluar dari program. Jika password salah sebanyak tiga kali, ATM akan terblokir dan program berhenti. Saldo awal yang digunakan adalah Rp10.000.000.
 
 ## Kesimpulan
-
+perulangan while dalam bahasa Go dapat diterapkan menggunakan for dengan kondisi tertentu. Perulangan ini digunakan untuk menyelesaikan berbagai masalah, seperti mencari bilangan terkecil, bilangan terbesar, menghitung huruf vokal, dan membuat simulasi ATM. Dengan memahami perulangan dan kondisi berhenti, program dapat menjalankan perintah secara berulang hingga kondisi yang ditentukan terpenuhi.
 ## Referensi
+1. Go Programming Language. The Go Programming Language Specification — For Statements. Dokumentasi resmi Go
+2. Go.dev. A Tour of Go — Flow Control Statements: For. A Tour of Go
+3. Go.dev. A Tour of Go — Strings, bytes, and runes. Dokumentasi string Go

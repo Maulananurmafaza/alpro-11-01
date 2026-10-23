@@ -24,6 +24,7 @@ func main(){
 }
 ```
 ##### output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/06-percabangan/profit_output.png
 
 ##### 2. sepakBola
 #### Kode
@@ -69,7 +70,7 @@ func main() {
 }
 ```
 ##### output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/06-percabangan/sepakBola_output.png
 
 ##### 3. Parkir
 #### Kode
@@ -99,7 +100,7 @@ func main(){
 }
 ```
 ##### output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/06-percabangan/parkir_output.png
 
 ##### 4. akhirTahun
 #### Kode
@@ -134,7 +135,7 @@ func main(){
 }
 ```
 ##### output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/06-percabangan/akhirTahun_output.png
 
 ##### 5. Avatar
 #### Kode
@@ -184,3 +185,4 @@ func main() {
 }
 ```
 ##### output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/06-percabangan/avatar_output.png

@@ -49,29 +49,74 @@ func main(){
 ##### Output
 
 #### Deskripsi
+Soal ini meminta pembuatan program yang mampu menganalisis karakteristik matematis dari sebuah bilangan bulat yang diinputkan.
 
 ### 3. hari.go
 
 ```go
+package main
 
+import "fmt"
+
+func main(){
+	var hari int
+	fmt.Scan(&hari)
+
+	switch hari {
+	case 1:
+		fmt.Println("Senin")
+	case 2:
+		fmt.Println("Selasa")
+	case 3:
+		fmt.Println("Rabu")
+	case 4:
+		fmt.Println("Kamis")
+	case 5:
+		fmt.Println("Jumat")
+	case 6:
+		fmt.Println("Sabtu (akhir pekan)")
+	case 7:
+		fmt.Println("Minggu (akhir pekan)")
+	default:
+		fmt.Println("Nomor tidak valid")
+	
+	}
+}
 ```
 
 ##### Output
 
 
 #### Deskripsi
-
+Membuat program dalam bahasa Go menggunakan struktur kontrol switch yang menerima masukan nomor hari dari 1 hingga 7.
 
 ### 4. terbesar.go
 
 ```go
+package main
 
+import "fmt"
+
+func main(){
+	var a, b, c int
+	fmt.Scan(&a, &b, &c)
+
+	terbesar := a
+
+	if b > terbesar {
+		terbesar = b
+	}
+	if c > terbesar {
+		terbesar = c
+	}
+	fmt.Println(terbesar)
+}
 ```
 
 ##### Output
 
 
 #### Deskripsi
-
+Soal ini menuntut pembuatan algoritma perbandingan numerik untuk mencari nilai terbesar dari sekumpulan tiga bilangan bulat yang diberikan.
 
 ## Kesimpulan

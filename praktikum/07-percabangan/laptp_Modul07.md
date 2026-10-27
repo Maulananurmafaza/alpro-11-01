@@ -47,7 +47,7 @@ func main(){
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/07-percabangan/tp/bilangan/pendahuluan_bilangan_output.png
 #### Deskripsi
 Soal ini meminta pembuatan program yang mampu menganalisis karakteristik matematis dari sebuah bilangan bulat yang diinputkan.
 
@@ -85,7 +85,7 @@ func main(){
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/07-percabangan/tp/hari/pendahuluan_hari_output.png
 
 #### Deskripsi
 Membuat program dalam bahasa Go menggunakan struktur kontrol switch yang menerima masukan nomor hari dari 1 hingga 7.
@@ -114,9 +114,10 @@ func main(){
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/07-percabangan/tp/terbesar/pendahuluan_terbesar_output.png
 
 #### Deskripsi
 Soal ini menuntut pembuatan algoritma perbandingan numerik untuk mencari nilai terbesar dari sekumpulan tiga bilangan bulat yang diberikan.
 
 ## Kesimpulan
+modul ini melatih kemampuan dalam menerapkan logika percabangan di bahasa Go. Struktur if digunakan untuk pengujian kondisi yang dinamis dan kompleks, sedangkan switch digunakan untuk pemetaan pilihan kondisi yang pasti dan terstruktur.

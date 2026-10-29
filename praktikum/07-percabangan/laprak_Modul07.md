@@ -204,7 +204,7 @@ func main() {
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/07-percabangan/unguided/besok/unguided_besok_output.png
 #### Deskripsi
 Soal meminta program memeriksa validasi tanggal, bulan dan tahun, kemudian menampilkan tanggal untuk besoknya. Program juga harus memperhatikan jumlah hari setiap bulan, tahun kabisat, serta pergantian bulan dan tahun.
 
@@ -236,10 +236,14 @@ func main(){
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/07-percabangan/unguided/parkir/unguided_parkir_output.png
 #### Deskripsi
 Meminta program menghitung biaya parkir berdasarkan jenis kendaraan dan lam parkir.
 
 ## Kesimpulan
+percabangan dalam bahasa Go digunakan untuk mengambil keputusan berdasarkan kondisi tertentu. Percabangan if, if else, else if, dan switch dapat digunakan untuk menyelesaikan berbagai permasalahan, seperti menentukan tahun kabisat, jenis segitiga, operasi matematika, biaya pengiriman, validasi tanggal, dan biaya parkir. Dengan memahami percabangan, program dapat menjalankan perintah sesuai kondisi dan menghasilkan keluaran yang tepat.
 
 ## Referensi
+1. The Go Authors. (n.d.). A Tour of Go: Flow Control Statements. Dokumentasi A Tour of Go
+2. The Go Authors. (n.d.). The Go Programming Language Specification: If statements. Spesifikasi Bahasa Go
+3. The Go Authors. (n.d.). The Go Programming Language Specification: Switch statements. Dokumentasi Switch Bahasa Go

@@ -23,7 +23,7 @@ func main() {
 }
 ```
 ##### output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/09-fungsi/konversiJarak_output.png
 
 ##### 2.Soal Kuadran
 #### Kode
@@ -63,6 +63,7 @@ func main (){
 }
 ```
 ##### output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/09-fungsi/kuadran_output.png
 
 ##### 3. Soal Tarif Parkir
 #### Kode
@@ -90,6 +91,7 @@ func main(){
 }
 ```
 ##### output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/09-fungsi/tarifParkir_output.png
 
 ##### 4. Soal Deret Kuadrat
 #### Kode
@@ -118,6 +120,7 @@ func main() {
 
 ```
 ##### output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/09-fungsi/deretKuadrat_output.png
 
 ##### 5.Soal Kombinasi
 #### Kode
@@ -152,3 +155,4 @@ func main() {
 }
 ```
 ##### output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/09-fungsi/kombinasi_output.png

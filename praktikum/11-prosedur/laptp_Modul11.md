@@ -60,7 +60,7 @@ func main() {
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/11-prosedur/tp/sekolah/sekolah_output.png
 
 #### Deskripsi
 Sebuah sekolah menyimpan daftar nama murid berdasarkan urutan absen. lalu membuat program untuk mencari apakah seorang murid terdaftar, sekaligus menghitung banyaknya murid yang namanya diawali huruf yang sama dengan huruf pertama nama yang dicari.
@@ -132,8 +132,10 @@ func main() {
 ```
 
 ##### Output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/11-prosedur/tp/penduduk/penduduk_output.png
 
 #### Deskripsi
 Program ini digunakan untuk menyimpan data penduduk yang terdiri dari nama, tahun lahir, dan kota asal. Program akan mencari data penduduk berdasarkan tahun lahir, lalu menampilkan penduduk tertua dan termuda.
+
 ## Kesimpulan
 prosedur dalam bahasa Go digunakan untuk membuat program lebih terstruktur dan mudah dipahami.kita belajar menggunakan prosedur untuk mencari data, menghitung jumlah, serta menentukan data tertua dan termuda

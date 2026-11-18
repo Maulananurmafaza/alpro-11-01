@@ -56,7 +56,7 @@ func main() {
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/10-fungsi/tp/raport/raport_output.png
 
 #### Deskripsi
 Seorang mahasiswa memiliki data raport yang berisi daftar mata kuliah dan nilai angka yang diperoleh lalu mebuat program yang menampilkan setiap mata kuliah beserta nilai huruf-nya, kemudian menampilkan rata-rata nilai seluruh mata kuliah. Konversi nilai huruf dan perhitungan rata-rata
@@ -122,6 +122,7 @@ func main() {
 ```
 
 ##### Output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/10-fungsi/tp/inputNilai/inputNilai_output.png
 
 #### Deskripsi
 Soal ini meminta kita membuat program untuk memasukkan data mahasiswa berupa NIM, nama, dan nilai. Program harus memeriksa NIM agar tidak ada data yang duplikat. Jika NIM sudah pernah dimasukkan, data tidak disimpan lagi. Input berhenti ketika memasukkan STOP, kemudian program menampilkan data mahasiswa dan menghitung rata-rata nilainya.

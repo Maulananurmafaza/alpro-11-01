@@ -1,0 +1,23 @@
+a. in p, q : integer
+Tidak valid, karena parameter in hanya dapat menerima nilai dan tidak boleh diubah.
+
+b. in p : integer, in/out q : integer
+Nilai awal p = 5 dan q = 5.
+ p = 5 * 2 = 10.
+ q = 10 + 5 = 15.
+Karena q merupakan parameter in/out, nilai m berubah menjadi 15.
+Output = 15
+
+c. in/out p : integer, in q : integer
+ Nilai awal p = 5 dan q = 5.
+ p = 5 * 2 = 10.
+ q = 10 + 5 = 15.
+Karena p merupakan parameter in/out, nilai m berubah menjadi 10.
+Output = 10
+
+d. in/out p, q : integer
+ Nilai awal p = 5 dan q = 5.
+ p = 5 * 2 = 10.
+ q = 10 + 10 = 20.
+Karena p dan q sama-sama mengacu pada variabel m, nilai akhirnya menjadi 20.
+Output = 20

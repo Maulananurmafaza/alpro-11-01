@@ -1,0 +1,20 @@
+procedure mengurutkanMenurun(in/out a, b : integer)
+{ I.S. terdefinisi bilangan bulat a dan b }
+{ F.S. nilai a > b, pertukaran nilai a dan b mungkin dilakukan }
+
+ALGORITMA
+    if a < b then
+        temp <- a
+        a <- b
+        b <- temp
+    endif
+endprocedure
+
+ALGORITMA UTAMA
+    input(a, b)
+
+    while a <> b do
+        mengurutkanMenurun(a, b)
+        output(a, b)
+        input(a, b)
+    endwhile

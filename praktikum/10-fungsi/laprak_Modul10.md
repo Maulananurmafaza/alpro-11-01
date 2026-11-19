@@ -162,8 +162,7 @@ func main(){
 ```
 
 ##### Output
-
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/10-fungsi/unguided_1/gempa_output.png
 
 #### Deskripsi
 

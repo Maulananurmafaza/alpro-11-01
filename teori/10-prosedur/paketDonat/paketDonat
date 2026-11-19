@@ -1,0 +1,11 @@
+program PaketDonat
+kamus
+    total, p12, p6, p1 : integer
+
+algoritma
+    input(total)
+    kemasDonat(total, p12, p6, p1)
+
+    output(p12, " paket isi 12")
+    output(p6, " paket isi 6")
+    output(p1, " satuan")

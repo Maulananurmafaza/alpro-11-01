@@ -1,0 +1,12 @@
+program KonversiBerat
+kamus
+    kg : real
+    gram, ons, pon : integer
+
+algoritma
+    input(kg)
+    konversiBerat(kg, gram, ons, pon)
+
+    output(gram, "g")
+    output(ons, " ons")
+    output(pon, " pon")

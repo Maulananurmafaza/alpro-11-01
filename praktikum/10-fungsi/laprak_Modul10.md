@@ -8,71 +8,69 @@ Fungsi merupakan satu kesatuan rangkaian intruksi yang memberikan atau menghasil
 
 ## Guided
 
-### 1. asas.go
+### 1. player.go
 
 ```go
 package main
 
 import "fmt"
 
-// Fungsi untuk mengecek tahun kabisat
-func kabisat(tahun int) bool {
-	return (tahun%4 == 0 && tahun%100 != 0) || (tahun%400 == 0)
+const NMAX int = 999
+
+type player struct {
+	nickname string
+	score    int
 }
 
-// Fungsi untuk mengembalikan jumlah hari pada bulan tertentu dalam suatu tahun
-func jumlahHari(bulan, tahun int) int {
-	var hari int
-	if bulan == 2 {
-		if kabisat(tahun) {
-			hari = 29
-		} else {
-			hari = 28
+type tabPlayer [NMAX]player
+
+func rataRata(T tabPlayer, n int) float64 {
+	total := 0
+	for i := 0; i < n; i++ {
+		total += T[i].score
+	}
+	return float64(total) / float64(n)
+}
+
+func idxTertinggi(T tabPlayer, n int) int {
+	idx := 0
+	for i := 1; i < n; i++ {
+		if T[i].score > T[idx].score {
+			idx = i
 		}
-	} else if bulan == 4 || bulan == 6 || bulan == 9 || bulan == 11 {
-		hari = 30
-	} else {
-		hari = 31
 	}
-	return hari
+	return idx
 }
 
-// Fungsi untuk menghitung hari ke-berapa dalam tahun tersebut menggunakan perulangan
-func hariKe(tanggal, bulan, tahun int) int {
-	var total int = 0
-	var i int
-	for i = 1; i < bulan; i++ {
-		total = total + jumlahHari(i, tahun)
+func hitungDiAtas(T tabPlayer, n int, batas float64) int {
+	count := 0
+	for i := 0; i < n; i++ {
+		if float64(T[i].score) > batas {
+			count++
+		}
 	}
-	total = total + tanggal
-	return total
+	return count
 }
 
 func main() {
-	var tanggal, bulan, tahun int
-	fmt.Scan(&tanggal, &bulan, &tahun)
-
-	// Menghitung urutan hari dalam tahun
-	urutanHari := hariKe(tanggal, bulan, tahun)
-
-	// Menentukan jumlah total hari dalam satu tahun (kabisat = 366, biasa = 365)
-	var totalHariTahun int
-	if kabisat(tahun) {
-		totalHariTahun = 366
-	} else {
-		totalHariTahun = 365
+	var T tabPlayer
+	var n int
+	fmt.Scan(&n)
+	for i := 0; i < n; i++ {
+		fmt.Scan(&T[i].nickname, &T[i].score)
 	}
 
-	// Menghitung sisa hari hingga akhir tahun
-	sisaHari := totalHariTahun - urutanHari
+	average := rataRata(T, n)
+	best := idxTertinggi(T, n)
+	di := hitungDiAtas(T, n, average)
 
-	// Menampilkan keluaran sesuai format
-	fmt.Printf("Hari ke-%d\n", urutanHari)
-	fmt.Printf("Sisa hari dalam tahun %d: %d\n", tahun, sisaHari)
+	fmt.Printf("Rata-rata skor: %.2f\n", average)
+	fmt.Printf("Player terbaik: %s (%d)\n", T[best].nickname, T[best].score)
+	fmt.Printf("Jumlah player di atas rata-rata: %d\n", di)
 }
 ```
 #### Deskripsi
- 
+ program ini untuk mengolah data skor player sebuah turnamen game. Program harus menampilkan rata-rata skor, player dengan skor tertinggi, dan jumlah player yang skornya di atas rata-rata
  ## Unguided
 
 ### 1. gempa.go
@@ -165,9 +163,11 @@ func main(){
 https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/10-fungsi/unguided_1/gempa_output.png
 
 #### Deskripsi
-
+Program dibuat untuk mengolah data gempa bumi berdasarkan nama wilayah, tahun kejadian, dan nilai magnitudo. Program menentukan kategori setiap gempa berdasarkan magnitudonya, menghitung rata-rata magnitudo, mencari gempa dengan magnitudo tertinggi, serta menghitung jumlah gempa yang termasuk kategori Besar. Setiap proses perhitungan dilakukan menggunakan fungsi sesuai ketentuan soal.
 
 ## Kesimpulan
-
+fungsi dalam bahasa Go dapat membantu membuat program lebih terstruktur dan mudah dipahami. Fungsi digunakan untuk mengolah data, melakukan perhitungan, menentukan nilai tertentu, serta mengembalikan hasil menggunakan return.
 
 ## Referensi
+1. Learn Go. (n.d.). Functions. https://www.learn-golang.org/en/Functions
+2. The Go Authors. (n.d.). A Tour of Go. https://go.dev/tour/

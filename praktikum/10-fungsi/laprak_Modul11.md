@@ -117,8 +117,7 @@ func main() {
 ```
 
 ##### Output
-
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/10-fungsi/unguided_2/nim_output.png
 
 #### Deskripsi
 Sistem akademik universitas menyimpan daftar NIM mahasiswa.lalu kita membuat program untuk mencari apakah seorang mahasiswa terdaftar berdasarkan NIM-nya. Jika mahasiswa ditemukan, NIM mahasiswa tersebut diubah dengan NIM pengganti

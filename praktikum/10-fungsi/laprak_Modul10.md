@@ -70,7 +70,9 @@ func main() {
 }
 ```
 #### Deskripsi
- program ini untuk mengolah data skor player sebuah turnamen game. Program harus menampilkan rata-rata skor, player dengan skor tertinggi, dan jumlah player yang skornya di atas rata-rata
+ program ini untuk mengolah data skor player sebuah turnamen game. Program harus menampilkan rata-rata skor, player dengan skor tertinggi, dan jumlah player yang skornya di atas rata-rata.
+
+
  ## Unguided
 
 ### 1. gempa.go

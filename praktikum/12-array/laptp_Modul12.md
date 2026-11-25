@@ -86,7 +86,7 @@ func main () {
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/12-array/tp/pelamar/pelamar_output.png
 
 
 #### Deskripsi
@@ -163,8 +163,7 @@ func main() {
 ```
 
 ##### Output
-
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/12-array/tp/nama/nama_output.png
 
 #### Deskripsi
 Soal ini membahas operasi penyisipan dan penghapusan data pada array. Program menerima sejumlah nama, kemudian menyisipkan nama baru pada posisi yang ditentukan dan menghapus nama pada posisi tertentu setelah penyisipan. Setiap operasi dilakukan dengan menggeser elemen array agar urutan data tetap terjaga. Program menampilkan isi array sebelum penyisipan, setelah penyisipan, dan setelah penghapusan.

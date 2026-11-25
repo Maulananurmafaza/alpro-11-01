@@ -64,7 +64,7 @@ func main() {
 
  ## Unguided
 
-### 1. nim.go
+### 2. nim.go
 
 ```go
 package main

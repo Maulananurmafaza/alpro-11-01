@@ -1,37 +1,34 @@
 ALGORITMA NilaiUjian
 
 DEKLARASI
-    A, B : array[1001] of integer
-    nA, nB, i, nilai, maks : integer
+    CONST NMAX = 1001
+    TYPE tabNilai : array[0..NMAX-1] of integer
 
-PROCEDURE InputData(T, n)
-    n ← 0
-    input(nilai)
+    T : tabNilai
+    n : integer
 
-    WHILE nilai >= 0 DO
-        T[n] ← nilai
-        n ← n + 1
-        input(nilai)
-    ENDWHILE
+PROCEDURE inputData(T, n)
+    DEKLARASI
+        nilai : integer
+        i : integer
+
+    ALGORITMA
+        n ← 0
+
+        FOR i ← 0 TO NMAX-1 DO
+            input(nilai)
+
+            IF nilai < 0 THEN
+                RETURN
+            ENDIF
+
+            T[n] ← nilai
+            n ← n + 1
+        ENDFOR
+
 ENDPROCEDURE
 
-FUNCTION Tertinggi(T, n) : integer
-    maks ← T[0]
-
-    FOR i ← 1 TO n-1 DO
-        IF T[i] > maks THEN
-            maks ← T[i]
-        ENDIF
-    ENDFOR
-
-    RETURN maks
-ENDFUNCTION
-
 ALGORITMA UTAMA
-    InputData(A, nA)
-    InputData(B, nB)
-
-    output(Tertinggi(A, nA))
-    output(Tertinggi(B, nB))
+    inputData(T, n)
 
 SELESAI

@@ -1,0 +1,37 @@
+ALGORITMA NilaiUjian
+
+DEKLARASI
+    A, B : array[1001] of integer
+    nA, nB, i, nilai, maks : integer
+
+PROCEDURE InputData(T, n)
+    n ← 0
+    input(nilai)
+
+    WHILE nilai >= 0 DO
+        T[n] ← nilai
+        n ← n + 1
+        input(nilai)
+    ENDWHILE
+ENDPROCEDURE
+
+FUNCTION Tertinggi(T, n) : integer
+    maks ← T[0]
+
+    FOR i ← 1 TO n-1 DO
+        IF T[i] > maks THEN
+            maks ← T[i]
+        ENDIF
+    ENDFOR
+
+    RETURN maks
+ENDFUNCTION
+
+ALGORITMA UTAMA
+    InputData(A, nA)
+    InputData(B, nB)
+
+    output(Tertinggi(A, nA))
+    output(Tertinggi(B, nB))
+
+SELESAI

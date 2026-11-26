@@ -1,0 +1,34 @@
+ALGORITMA Lingkaran
+
+DEKLARASI
+    TYPE geoCircle :
+        area, circumference : real
+    ENDTYPE
+
+    TYPE circle :
+        radius : real
+        color : string
+        property : geoCircle
+    ENDTYPE
+
+    c : circle
+
+PROCEDURE IsiData(c)
+    input(c.radius, c.color)
+ENDPROCEDURE
+
+PROCEDURE Hitung(c)
+    c.property.area ← 3.14 * c.radius * c.radius
+    c.property.circumference ← 2 * 3.14 * c.radius
+ENDPROCEDURE
+
+PROCEDURE Cetak(c)
+    output(c.property.area, c.property.circumference)
+ENDPROCEDURE
+
+ALGORITMA UTAMA
+    IsiData(c)
+    Hitung(c)
+    Cetak(c)
+
+SELESAI

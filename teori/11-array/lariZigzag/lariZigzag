@@ -1,0 +1,65 @@
+ALGORITMA LarikZigzag
+
+DEKLARASI
+    T : array[128] of integer
+    n, i, temp : integer
+    naik : boolean
+
+PROCEDURE IsiData(T, n)
+    FOR i ← 0 TO n-1 DO
+        input(T[i])
+    ENDFOR
+ENDPROCEDURE
+
+PROCEDURE Balik(T, n)
+    FOR i ← 0 TO n/2-1 DO
+        temp ← T[i]
+        T[i] ← T[n-1-i]
+        T[n-1-i] ← temp
+    ENDFOR
+ENDPROCEDURE
+
+FUNCTION Zigzag(T, n) : boolean
+    IF n <= 1 THEN
+        RETURN true
+    ENDIF
+
+    IF T[0] = T[1] THEN
+        RETURN false
+    ENDIF
+
+    naik ← T[0] < T[1]
+
+    FOR i ← 1 TO n-2 DO
+        IF naik AND T[i] <= T[i+1] THEN
+            RETURN false
+        ENDIF
+
+        IF NOT naik AND T[i] >= T[i+1] THEN
+            RETURN false
+        ENDIF
+
+        naik ← NOT naik
+    ENDFOR
+
+    RETURN true
+ENDFUNCTION
+
+ALGORITMA UTAMA
+    input(n)
+
+    IsiData(T, n)
+
+    output(T)
+
+    IF Zigzag(T, n) THEN
+        output("Zigzag")
+    ELSE
+        output("Bukan zigzag")
+    ENDIF
+
+    Balik(T, n)
+
+    output(T)
+
+SELESAI

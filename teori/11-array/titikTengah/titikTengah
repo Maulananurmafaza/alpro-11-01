@@ -1,0 +1,18 @@
+ALGORITMA TitikTengah
+
+DEKLARASI
+    p1, p2, hasil : titik
+
+PROCEDURE HitungTengah(p1, p2, hasil)
+    hasil.x ← (p1.x + p2.x) / 2
+    hasil.y ← (p1.y + p2.y) / 2
+ENDPROCEDURE
+
+ALGORITMA UTAMA
+    input(p1.x, p1.y, p2.x, p2.y)
+
+    HitungTengah(p1, p2, hasil)
+
+    output(hasil.x, hasil.y)
+
+SELESAI

@@ -221,13 +221,13 @@ func main() {
 ```
 
 ##### Output
-
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/praktikum/12-array/unguided/perpustakaan_output.png
 
 #### Deskripsi
 Sebuah perpustakaan ingin merapikan data bukunya. Data setiap buku terdiri dari kode buku, judul buku, jumlah peminjaman, dan jumlah halaman. Petugas ingin menghapus dari array semua buku yang jumlah peminjamannya kurang dari batas X, lalu menampilkan total peminjaman dan buku paling sering dipinjam dari data yang tersisa. Jika terdapat beberapa buku dengan jumlah peminjaman tertinggi yang sama, pilih buku dengan jumlah halaman lebih sedikit.
 ## Kesimpulan
 array dapat digunakan untuk menyimpan dan mengolah sekumpulan data secara terstruktur. Pada soal curah hujan, array digunakan untuk mencari nilai tertinggi dan terendah, menghitung rata-rata, serta membalik urutan data. Pada soal perpustakaan, array digunakan untuk menghapus data buku berdasarkan batas peminjaman, menghitung total peminjaman, dan menentukan buku yang paling sering dipinjam. Kedua soal juga melatih penggunaan subprogram berupa prosedur dan fungsi untuk membuat program lebih terstruktur dan mudah dipahami.
 ## Referensi
-1.Google. (n.d.). A Tour of Go: Arrays. https://go.dev/tour/moretypes/6
+1. Google. (n.d.). A Tour of Go: Arrays. https://go.dev/tour/moretypes/6
 2. Google. (n.d.). Go by Example: Arrays. https://gobyexample.com/arrays
 3. Google. (n.d.). Go by Example: Slices. https://gobyexample.com/slices

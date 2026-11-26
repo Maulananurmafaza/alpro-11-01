@@ -1,0 +1,23 @@
+ALGORITMA Buku1
+
+DEKLARASI
+    TYPE buku :
+        kode, judul, penerbit : string
+        tahun : integer
+    ENDTYPE
+
+    TYPE tabBuku : array[1..500] of buku
+
+PROCEDURE cetak(T, n, X)
+    {I.S. Terdefinisi array T yang berisi n buku}
+    {F.S. Menampilkan buku yang diterbitkan oleh penerbit X}
+
+    FOR i ← 1 TO n DO
+        IF T[i].penerbit = X THEN
+            output(T[i].kode, T[i].judul,
+                   T[i].penerbit, T[i].tahun)
+        ENDIF
+    ENDFOR
+ENDPROCEDURE
+
+SELESAI

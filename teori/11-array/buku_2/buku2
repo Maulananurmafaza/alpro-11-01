@@ -1,0 +1,22 @@
+ALGORITMA Buku2
+
+DEKLARASI
+    T : tabBuku
+    n, i : integer
+    X : string
+
+ALGORITMA
+    n ← 10
+
+    FOR i ← 1 TO n DO
+        input(T[i].kode)
+        input(T[i].judul)
+        input(T[i].penerbit)
+        input(T[i].tahun)
+    ENDFOR
+
+    X ← "Gramedia"
+
+    cetak(T, n, X)
+
+SELESAI

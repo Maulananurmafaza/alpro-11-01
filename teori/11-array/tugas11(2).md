@@ -31,8 +31,8 @@ func main() {
 }
 ```
 
-
 ##### Output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/11-array/titikTengah/titikTengah_output.png
 
 ##### 2. lingkaran
 #### Kode
@@ -76,6 +76,7 @@ func main() {
 ```
 
 ##### Output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/11-array/lingkaran/lingkaran_output.png
 
 ##### 3. larik zigzag
 #### Pseudocode
@@ -196,6 +197,8 @@ func main() {
 
 
 ##### Output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/11-array/nilaiUjian/nilaiUjian_output.png
+
 
 ##### 5. buku1
 #### Kode
@@ -255,3 +258,4 @@ func main() {
 ```
 
 ##### Output
+https://github.com/Maulananurmafaza/alpro-11-01/blob/main/teori/11-array/buku_2/buku_output.png
